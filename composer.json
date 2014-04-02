@@ -1,0 +1,36 @@
+{
+    "name": "vendor-name/project-name",
+    "description": "Project Description",
+    "version": "0.1.0",
+    "type": "library",
+    "homepage": "http://www.projectpage.com",
+    "time": "2013-12-05",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "your@email.com",
+            "homepage": "http://www.yoursite.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "",
+        "issues": "http://www.yoursite.com/support",
+        "forum": "http://www.yoursite.com/forum"
+    },
+    "repositories": [
+    	
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Anet": "app/"
+        }
+    },
+    "config": {
+        "vendor-dir": "app/lib/vendor/"
+    }
+}
